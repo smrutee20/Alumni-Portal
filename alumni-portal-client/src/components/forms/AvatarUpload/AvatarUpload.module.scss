@@ -1,0 +1,28 @@
+.avatar-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: hsla(var(--card));
+  padding: 2rem;
+
+  .avatar-crop {
+    width: 200px;
+    height: 200px;
+  }
+
+  .avatar-upload-actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    > * {
+      flex: 1;
+    }
+
+    label {
+      cursor: pointer;
+    }
+  }
+}
